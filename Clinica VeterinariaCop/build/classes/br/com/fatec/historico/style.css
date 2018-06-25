@@ -1,0 +1,35 @@
+ * {
+ 	font-family: Helvetica;
+ }
+
+body {
+	background-color: rgb(230, 230, 230);
+}
+
+.container {
+	width: 720px;
+	margin: 0 auto;
+	background-color: white;
+	min-height: 900px;
+	padding: 40px;	
+    box-shadow: 0px 0px 40px 0px;
+}
+#titulo {
+    text-align: center;
+}
+
+.autores {
+    display: inline-block;
+    font-size: 25px;
+}
+
+span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+td, th {
+    border: solid 1px;
+    padding: 10px;
+    max-width: 200px;
+}
